@@ -41,5 +41,5 @@ function(add_example name)
 endfunction()
 
 # add all the examples with a use of the add_example function defined above
-add_example(basic basic/basic.c)
+add_example(basic basic/basic.cpp)
 add_example(basic-async basic-async/basic-async.c)
